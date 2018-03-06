@@ -1,0 +1,337 @@
+
+body {
+   background: rgb(209, 209, 209);
+   font-family: Helvetica, sans-serif;
+}
+
+
+#contenedor{
+ width: 90%;
+ background-image: url('../images/fondogris.jpg');
+ margin:0 auto;
+}
+
+.enunciado {
+    width: 100%;
+    padding: 0px;
+    margin-top: 50px;
+     background-color: rgb(0, 0, 0);
+     font-size: 20px;
+     font-family: Verdana, Helvetica, sans-serif;
+     text-align: center;
+     font-weight: 200;
+}
+
+.paular {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 10px;
+    color: white;
+}
+
+#buscador{
+    width: 290px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.buscador{
+    width: 98%;
+    background-color: rgb(240, 148, 145);
+    margin:0 auto;
+    padding: 10px;
+   }
+   
+
+.registro{
+    width: 95%;
+    background-color: rgb(224, 224, 224);
+    padding: 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+#registrarse{
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px;
+    float: right;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+ #enviar{
+    width: 190px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+a:link {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(128, 128, 128);
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.titulo {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 50px;
+    padding: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.banner {
+    width: 100%;
+    
+}
+#imagenn {
+    width: 400px;
+    height: 400px;
+}
+
+.piefoto{ 
+    font-size: 17px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+#contenedorsegundo {
+    width: 80%;
+    margin:0 auto;
+    margin-top: 50px;
+    background-color: white;  
+}
+
+#contenedor2 {
+    width: 80%;
+    margin:0 auto;
+    margin-top: 50px;
+    background-color: white; 
+    
+}
+
+#contenedor3 {
+    width: 80%;
+    margin:0 auto;
+    background-color: white; 
+    
+}
+
+.opinion {
+    width: 80%;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.descripcion{
+    width: 100%;
+    margin:0 auto;
+    background-color: rgb(255, 238, 235); 
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+}
+
+.favorito{
+    width: 100%;
+    margin:0 auto;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+.articulorelacionado{
+    width: 80%;
+    padding: 25px;
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(255, 238, 244)
+
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    align-self: flex-end;
+}
+
+/*breakpoint movil*/
+@media only screen and (max-device-width:466px) {
+
+.descripcion{
+    width: 100%;
+    margin:0 auto;
+    background-color: rgb(255, 255, 255); 
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+    transition-duration: 0.30s;
+}
+
+.registro{
+    font-size: 20px;
+}
+
+.zapato {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background:rgb(255, 215, 213);
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    line-height: 35px;
+     }
+
+     .piefoto{ 
+        font-size: 17px;
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+    }
+}
+
+
+/*breakpoint tablet*/
+@media only screen and (min-device-width:467px) and (max-device-width:1023px) {
+
+    .paular {
+        font-size: 20px;
+    }
+
+    #buscador{
+        font-size: 17px;
+    }
+
+    #contenedor2 {
+        width: 50%;
+        float: left;
+        margin:0 auto;
+        margin-top: 50px;
+        background-color: white; 
+        
+    }
+    #contenedor3 {
+        width: 50%;
+        float: left;
+        margin:0 auto;
+        margin-top: 50px;
+        background-color: white; 
+        
+    }
+    
+    
+    .zapato {
+        margin: 0 auto;
+        padding: 20px;
+        background:rgb(255, 215, 213);
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+        line-height: 35px;
+         }
+
+    .piefoto{ 
+            font-size: 20px;
+            font-family: Helvetica, sans-serif;
+            text-align: center;
+        }
+    
+    .buscador{
+            width: 97%;
+            background-color: rgb(240, 148, 145);
+            margin:0 auto;
+            padding: 10px;
+           }
+    
+
+
+    }
+
+/*breakpoint PC*/
+@media screen and (min-device-width:1023px) {
+
+
+
+    #contenedor2 {
+        width: 50%;
+        float: left;
+        margin:0 auto;
+        margin-top: 50px;
+        background-color: white; 
+        
+    }
+    #contenedor3 {
+        width: 50%;
+        float: left;
+        margin:0 auto;
+        margin-top: 50px;
+        background-color: white; 
+        
+    }
+    
+    
+    .zapato {
+        margin: 0 auto;
+        padding: 20px;
+        background:rgb(255, 215, 213);
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+        line-height: 35px;
+         }
+    
+    
+    .registro{
+           width: 97%;
+            background-color: rgb(224, 224, 224);
+            padding: 20px;
+            font-family: Helvetica, sans-serif;
+            font-size: 13px;
+        }
+
+    .piefoto{ 
+            font-size: 15px;
+            font-family: Helvetica, sans-serif;
+            text-align: center;
+            line-height: 17px;
+        }
+
+     #buscador{
+            width: 290px;
+            height: 30px;
+            font-size: 11px;
+            border-radius: 15px;
+            padding: 10px;
+        }
+     .buscador{
+            width: 98%;
+           
+           }
+    #registrarse{
+            width: 100px;
+            height: 35px;
+            font-size: 12px;
+        }
+
+    #imagenn {
+    width: 450px;
+    height: 450px;
+}
+
+    }
+
+
